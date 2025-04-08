@@ -1,13 +1,12 @@
-# Wallhaven-dl
+# WallhavenDownload
 
 ## UPDATE
-###The script now comes with a search functionality, you can now search and download wallpapers from the command line.
-
+该脚本现在具有搜索功能，你现在可以从命令行搜索并下载壁纸。
 ---------------------------------------------------------------------
 
-A wallhaven scraper which downloads all the wallpapers from the first page of [alpha.wallhaven.cc](http://alpha.wallhaven.cc/)
+Wallhaven 爬虫，它可以从第一页下载所有的壁纸 [alpha.wallhaven.cc](http://alpha.wallhaven.cc/)
 
-This Script now comes with categories and purity sort support.
+此脚本现在带有类别和纯度排序支持。
 ###### NOTE- Downloading NSFW images require a [Wallhaven Account](https://alpha.wallhaven.cc/user/create)
 
 
@@ -15,19 +14,18 @@ This Script now comes with categories and purity sort support.
 
 ## How to use:
   
-  1. Download the wallhaven-dl.py
-  2. Move wallhaven-dl.py to the folder in which you want wallpapers to download.
-  3. run script 
-  4. It'll ask you to choose a category, download the latest wallpapers or search, choose as per desired.
-  5. enjoy!
+1. 下载 wallhaven-dl.py
+2. 将 wallhaven-dl.py 移动到你想要下载壁纸的文件夹中
+3. 运行脚本
+4. 它会要求你选择一个类别、下载最新壁纸或进行搜索，请根据需要进行选择
+5. 尽情享受吧！
 ```
 $ python3 wallhaven-dl.py
 ```
 
 ## Dependencies:
   
-  This project depends on BeautifulSoup, Requests, tqdm, lxml
-  Your can install install the dependencies using the requirements.txt file and running
+此项目依赖于 BeautifulSoup、Requests、tqdm、lxml。你可以使用 requirements.txt 文件安装依赖项并运行
   ```
   $ pip3 install -r requirements.txt
   ```
