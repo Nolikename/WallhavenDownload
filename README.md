@@ -7,7 +7,6 @@
 Wallhaven 爬虫，它可以从第一页下载所有的壁纸 [alpha.wallhaven.cc](http://alpha.wallhaven.cc/)
 
 此脚本现在带有类别和纯度排序支持。
-###### NOTE- Downloading NSFW images require a [Wallhaven Account](https://alpha.wallhaven.cc/user/create)
 
 
 ![](https://raw.githubusercontent.com/GeekSpin/Wallhaven-dl/master/Images/wallhaven-dl%20(1).gif)
